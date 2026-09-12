@@ -1,0 +1,6 @@
+let Str1="Welcome to javascript practise";
+let str2="";
+for(let i=Str1.length-1;i>=0;i--){
+    str2+=Str1[i];
+}
+console.log(`Reverse of string is : ${str2}`);

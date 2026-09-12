@@ -1,0 +1,63 @@
+class Student {
+    constructor(stdname, stdmarks) {
+        this.stdname = stdname;
+        this.stdmarks = stdmarks;
+    }
+     Name(){
+        return this.stdname;
+     }
+    TotalMark() {
+        let sum = 0;
+
+        for (let i = 0; i < this.stdmarks.length; i++) {
+            sum += this.stdmarks[i];
+        }
+
+        return sum;
+    }
+    Percentage() {
+        let avg= this.TotalMark() / this.stdmarks.length;
+        return avg;
+    }
+
+    Grade() {
+        let Avgpercent = this.Percentage();
+
+        if (Avgpercent  >= 90) {
+            return 'A';
+        }
+        else if (Avgpercent  >= 80 && Avgpercent  < 90) {
+            return 'B';
+        }
+        else if (Avgpercent  >= 70 && Avgpercent  < 80) {
+            return 'C';
+        }
+        else if(Avgpercent  >= 60 && Avgpercent  < 70){
+            return 'D';
+        }
+        else if(Avgpercent  >= 40 && Avgpercent  < 60 ){ 
+            return 'E';
+        }
+        else {
+            return 'F';
+        }
+    }
+
+    Result() {
+        let Avgpercent  = this.Percentage();
+
+        if (Avgpercent  >= 40) {
+            return 'Pass';
+        }
+        else {
+            return 'Fail';
+        }
+    }
+}
+
+let Student1 = new Student("Arun kumar", [35,87,96,56,87]);
+console.log(`Student Name : ${Student1.Name()}`);
+console.log(`Total marks : ${Student1.TotalMark()}`);
+console.log(`Percentage : ${Student1.Percentage().toFixed(0)}%`);
+console.log(`Grade : ${Student1.Grade()}`);
+console.log(`Over All : ${Student1.Result()}`);
