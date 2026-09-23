@@ -1,0 +1,27 @@
+class largestAndSmallest{
+    constructor(arr){
+        this.arr=arr;
+    }
+    Largest(){
+        let largest=this.arr[0];
+        for(let i=1;i<this.arr.length;i++){
+            if(this.arr[i]>largest){
+                largest=this.arr[i];
+            }
+        }
+        return largest;
+    }
+    Smallest(){
+        let smallest=this.arr[0];
+        for(let i=1;i<this.arr.length;i++){
+            if(this.arr[i]<smallest){
+                smallest=this.arr[i];
+            }
+        }
+        return smallest;
+    }
+}
+let arr=[23,45,67,89,12,34,56];
+let los=new largestAndSmallest(arr);
+console.log(`Largest number in the array is : ${los.Largest()}`);
+console.log(`Smallest number in the array is : ${los.Smallest()}`);

@@ -1,0 +1,10 @@
+let Str1="Welcome to javascript practise";
+let count=0;
+for(let i=0;i<Str1.length;i++){
+    if(Str1[i]=='a'||Str1[i]=='e'||Str1[i]=='i'||Str1[i]=='o'||Str1[i]=='u'){
+        count++;
+    }   
+}
+console.log(`No of vowels in string is : ${count}`);
+console.log(`No of Consonents in string is : ${Str1.length - count}`);
+console.log(`No of spaces in string is : ${Str1.split(" ").length - 1}`);
