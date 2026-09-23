@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Add Student</title>
+    <link rel="stylesheet" href="../CSS/addStudent.css">
+</head>
+<body class="add-student">
+<form id="student-form">
+    <h1>Enter Student Details</h1>
+    <div class="form-group">
+        <label for="studentName">   Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter student name" required >
+    </div>
+    <div class="form-group">
+        <label for="email">  Email ID:</label>
+        <input  type="email"  id="email"  placeholder="Enter email ID"  required>
+    </div>
+    <div class="form-group">
+         <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter age" min="18" max="30" required >
+    </div>
+    <div class="form-group">
+        <label for="deapartment"> Department:</label>
+         <input type="text" id ="department" placeholder="Enter Department name" required>
+    </div>
+    <div class="form-group">
+
+    </div>
+
+    <h1>Enter Subject Marks</h1>
+    <div class="form-group">
+          <label for="tamil">Tamil: </label>
+        <input type="number" id="tamil" placeholder="Tamil marks" min="0" max="100" required >
+    </div>
+    <div class="form-group">
+        <label for="english">English: </label>
+        <input type="number" id="english" placeholder="English marks" min="0" max="100" required >
+    </div>
+    <div class="form-group">
+        <label for="maths">  Maths:</label>
+        <input type="number" id="maths" placeholder="Maths marks" min="0" max="100" required>
+    </div>
+    <div class="form-group">
+        <label for="science"> Science: </label>
+        <input type="number" id="science" placeholder="Science marks"  min="0" max="100" required>
+    </div>
+    <div class="form-group">
+        <label for="social"> Social Science:</label>
+        <input type="number" id="social" placeholder="Social Science marks" min="0" max="100" required >
+    </div>
+    <div class="form-buttons">
+        <button type="submit"  class="button"> Add Student</button>
+        <button type="button" class="button" onclick="window.location.href='dashboard.html'"> Back to Dashboard
+        </button>
+    </div>
+</form>
+<script src="../JS/app.js"></script>
+
+</body>
+</html>
