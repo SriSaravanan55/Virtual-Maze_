@@ -7,6 +7,7 @@
     2.This application contains Dashboard, AddStudent (Adding new Students deatils and marks), StudentList (The list of Student details in Storage) and SearchStudent (finding an particular Student and his/her detail)
 
 Feature:
+
      1.DASHBOARD --> Shows four features 
                 i.  Total.no.of Students
                 ii. Average Marks
