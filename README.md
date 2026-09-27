@@ -4,7 +4,8 @@
 
     1. This Student Management System is an application that manage, add, retrive, and organise a students details and their marks. 
     
-    2.This application contains Dashboard, AddStudent (Adding new Students deatils and marks), StudentList (The list of Student details in Storage) and SearchStudent (finding an particular Student and his/her detail)
+    2.This application contains Dashboard, AddStudent (Adding new Students deatils and marks), StudentList (The list of Student details in Storage) 
+    and SearchStudent (finding an particular Student and his/her detail)
 
 Feature:
 
