@@ -17,11 +17,12 @@ Feature:
                 ii. Average Marks
                 iii.highest Mark
                 iv. Lowest Mark
-    2.Add Students --> Adding an new Student Details and Marks
+                
+     2.Add Students --> Adding an new Student Details and Marks
                --- In this page, validation process is implementated for an Valid name, Valid Email id, Valid Department, And Marks.
                 
-    3.Student List -->Use to Display the details of Students already stored.
+     3.Student List -->Use to Display the details of Students already stored.
     
-    4.Search Student --> finding the particular Student in already stored details.
+     4.Search Student --> finding the particular Student in already stored details.
 
      The Student details and Marks are Store in Local Broswer Storage.
