@@ -5,9 +5,13 @@
     1. This Student Management System is an application that manage, add, retrive, and organise a students details and their marks. 
     
     2.This application contains: 
+    
                    ---Dashboard
+                   
                    --- AddStudent (Adding new Students deatils and marks)
+                   
                    ---StudentList (The list of Student details in Storage) 
+                   
                    --- SearchStudent (finding an particular Student and his/her detail)
 
 Feature:
@@ -19,6 +23,7 @@ Feature:
                 iv. Lowest Mark
                 
      2.Add Students --> Adding an new Student Details and Marks
+     
                --- In this page, validation process is implementated for an Valid name, Valid Email id, Valid Department, And Marks.
                 
      3.Student List -->Use to Display the details of Students already stored.
